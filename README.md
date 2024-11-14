@@ -2,6 +2,10 @@
 
 Aquí encontrarás una selección de proyectos en los que he trabajado, demostrando mis habilidades y técnicas en desarrollo web. A continuación, te presento una breve descripción de las tecnologías y enfoques que he utilizado en cada sección de mi portafolio.
 
+## Live preview
+
+[live preview portfolio Luis Lopez](https://portfolioluislopez.netlify.app/)
+
 ## 🛠️ Tecnologías Utilizadas Front-End
 
 ### HTML5
