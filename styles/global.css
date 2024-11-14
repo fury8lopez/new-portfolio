@@ -188,10 +188,14 @@ label +
     flex: 1;
 }
 
+
 .button-inverted {
     background-color: black;
-    color: white;
     flex: 1;
+}
+
+.button-inverted a {
+    color: white;
 }
 
 .about-tittle,
@@ -351,6 +355,10 @@ label +
     flex: 1;
 }
 
+.button-code a {
+    color: black;
+}
+
 
 .skills {
     margin: 20px 0;
@@ -370,7 +378,8 @@ label +
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
-    margin-top: 20px;
+    padding: 20px;
+
 }
 
 .celda {
