@@ -1,0 +1,71 @@
+
+.formulary {
+    font-family: Arial, sans-serif;
+    background-image: url(/media/images/back-ground-contact-litle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.formulario-container {
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: start;
+    gap: 8px;
+}
+
+.formulario label {
+    font-size: 24px;
+    color: #163547;
+    margin-bottom: 5px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="date"],
+.formulario select,
+.formulario textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+    background-color: #fff;
+}
+
+.formulario select {
+    cursor: pointer;
+}
+
+.formulario textarea {
+    min-height: 100px;
+}
+
+
+
+.formulario button[type="submit"] {
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #163547;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario button[type="submit"]:hover {
+    background-color: #0d2a3e;
+}

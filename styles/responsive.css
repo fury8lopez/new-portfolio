@@ -1,0 +1,137 @@
+/* Media query para  tablet  */
+@media (min-width: 427px) {
+	:root {
+		--container-width: 85%;
+	}
+
+	.show-on-mobile {
+		display: none;
+	}
+
+	.show-on-tablet {
+		display: flex;
+	}
+
+	.show-on-desktop {
+		display: none;
+	}
+
+	.apps-container {
+		flex-direction: column;
+	}
+
+	.buttons-container {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.about-me {
+		flex-direction: row;
+	}
+
+	.about-tittle {
+		flex: 1;
+	}
+
+	.about-desctiption {
+		flex: 2;
+		text-align: left;
+		padding-right: 50px;
+	}
+
+	.card-interest {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.portfolio {
+		flex-direction: row;
+	}
+
+	.portfolio-text {
+		flex: 1;
+		padding: 20px 10px ;
+		text-align: left;
+		align-items: flex-start;
+	}
+
+	.portfolio-container {
+		flex: 1;
+	}
+	
+	.inverted-container {
+		flex-direction: row-reverse;
+	}
+
+	.inverted-text {
+		align-items: end;
+		text-align: end;
+	}
+
+	.portfolio-icons {
+		flex-direction: row;
+	}
+
+	.footer-list {
+		flex-direction: row;
+	}
+
+}
+
+
+/* Media query para escritorio (mayores a 1024px y hasta 1439px) */
+@media (min-width: 1024px) {
+	:root {
+		--bg-color: beige;
+		--container-width: 80%;
+	}
+
+	.mobile-nav {
+		display: none;
+	}
+
+	.show-on-tablet {
+		display: none;
+	}
+
+	.desktop-nav {
+		display: flex;
+	}
+
+	.desktop-nav-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.nav-list {
+		display: flex;
+	}
+
+	.list-elements {
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		padding: 0 20px;
+	}
+
+	.list-elements a {
+		color: black;
+		font-size: 20px;
+	}
+
+	.header {
+		flex-direction: row;
+	}
+
+	.header-tittle {
+		flex: 1;
+	}
+
+	.apps-container {
+		flex-direction: column;
+		flex: 1;
+	}
+
+}
