@@ -64,8 +64,8 @@
 	}
 
 	.inverted-text {
-		align-items: end;
-		text-align: end;
+		align-items: flex-end;
+		text-align: right;
 	}
 
 	.portfolio-icons {
@@ -78,6 +78,9 @@
 
 }
 
+@media (min-width: 768px) {
+
+}
 
 /* Media query para escritorio (mayores a 1024px y hasta 1439px) */
 @media (min-width: 1024px) {
