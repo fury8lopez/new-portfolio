@@ -25,19 +25,11 @@
 		justify-content: space-between;
 	}
 
-	.about-me {
-		flex-direction: row;
-	}
-
+	
 	.about-tittle {
 		flex: 1;
 	}
 
-	.about-desctiption {
-		flex: 2;
-		text-align: left;
-		padding-right: 50px;
-	}
 
 	.card-interest {
 		flex-direction: row;
@@ -80,6 +72,17 @@
 
 @media (min-width: 768px) {
 
+	
+	.about-me {
+		flex-direction: row;
+	}
+
+	
+	.about-desctiption {
+		flex: 2;
+		text-align: left;
+		padding-right: 50px;
+	}
 }
 
 /* Media query para escritorio (mayores a 1024px y hasta 1439px) */
