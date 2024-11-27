@@ -4,7 +4,7 @@ Aquí encontrarás una selección de proyectos en los que he trabajado, demostra
 
 ## Live preview
 
-[live preview portfolio Luis Lopez](https://portfolioluislopez.netlify.app/)
+[Ver Portfolio en Vivo](https://portfolioluislopez.netlify.app/)
 
 ## 🛠️ Tecnologías Utilizadas Front-End
 
